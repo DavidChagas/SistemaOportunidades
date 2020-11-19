@@ -55,7 +55,7 @@
                                 $area = $obj->area->find($obj->are_id);
                                 $divulgador = $obj->divulgador->find($obj->div_id);
                                 $tipoContratacao = $obj->tipoContratacao->find($obj->tip_id);
-                                $formatoTrabalho = $obj->formatoTrabalho->find($obj->tip_id);
+                                $formatoTrabalho = $obj->formatoTrabalho->find($obj->fdt_id);
                                 @endphp
                                 <tr>
                                     <th class="align-middle border-left">{{ $obj->id }}</th>
